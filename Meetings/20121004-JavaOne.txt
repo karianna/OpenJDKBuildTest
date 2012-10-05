@@ -1,0 +1,65 @@
+Meeting Notes - 2012-10-04 (JavaOne)
+
+Attendees (by organisation)
+---------------------------
+
+London Java Community
+---------------------
+Ben Evans
+Martijn Verburg
+Richard Warburton
+James Gough
+
+John Yeary - Greenville JUG
+
+Oracle
+------
+Cecilia Borg
+Alex Buckley
+Jon Gibbons
+Donald Smith
+Milton Smith
+Dalibor Topic
+Mikael Vidstedt
+
+IBM
+---
+Tim Ellison
+Steve Poole
+Neil Richards
+Paul Thwaites
+
+Red Hat
+-------
+Andrew Hughes
+Roman K
+Mario Torre
+
+Stephen Colebourne - OpenGamma
+
+Naaman Newbold - Heroku
+
+Volker Simonis - SAP
+
+
+Notes from session
+------------------
+* Broad agreement about the need for a more community oriented approach
+* Concern was raised (by Volker?) about finding out where to go to get information about what's going on. 
+* Is there, or could there be some resource which describes the different groups and projects, and their charters, plus links to the relevant web pages and (presumably) more contact info.
+* As a group we need to determine the overall scope of the project 
+  - Is it small enough to fit into the existing codetools project, or does it warrant a group of its own?
+* There seems to be agreement that there are two distinct areas of interest 
+  - Distributed, cross-platform build infrastructure & the means to carry out a user-submitted build (with custom, OOB patchset)
+  - OpenJDK testing - both from the point of view of OpenJDK itself, and from the point of product testing on top of it 
+* Broad consensus that the group should focus purely on technical capabilities and problems, and not address communication flow problems
+* Discussion around jtreg was extensive. 
+  - Jon made the point that at least some OpenJDK repos have adopted the stance that "a developer should have no reason to expect that any jtreg test would fail on any supported platform"
+  - Someone (Steve?) made the point that this was a lot easier to achieve in a more-or-less pure-java repo than in hotspot
+  - Consensus seemed to be that this was a laudable technical goal, although should not trump pragmatism about what can be achieved in the short term.
+
+Next Meetings (details tbc)
+---------------------------
+2012-11-XX Devoxx
+2013-02-XX FOSDEM
+
