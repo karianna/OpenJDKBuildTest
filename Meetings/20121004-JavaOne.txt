@@ -31,8 +31,8 @@ Paul Thwaites
 
 Red Hat
 -------
-Andrew Hughes
-Roman K
+Andrew Haley
+Roman Kennke
 Mario Torre
 
 Stephen Colebourne - OpenGamma
