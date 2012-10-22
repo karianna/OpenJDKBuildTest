@@ -30,4 +30,10 @@ Overall, two initial phases for the project are imagined:
 * Build out the needed components (patch distribution protocol, etc). 
   - Wherever possible, this should be done using existing technology - i.e. is it possible to do this by enhancing Jenkins rather than building from scratch.
 
+The project would contain scripts, configuration and other helper utilities in order to allow Contributors to set-up their own build-farms for OpenJDK builds. Within scope would be such items as Vagrant scripts, Jenkins/Hudson scripts, Mercurial scripts etc. Out of scope would be actual OpenJDK source code (scripts would retrieve this) or source/binary installations of tools such as Jenkins/Hudson.
 
+Overall, two initial phases for the project are imagined:
+
+* Collect the IP contributions from participating members. Sort through them, see how they fit together, and identify gaps.
+
+* Build out the needed components (patch distribution protocol, etc). Wherever possible, this should be done using existing technology - i.e. is it possible to do this by enhancing Jenkins rather than building from scratch.
